@@ -184,7 +184,7 @@
 		$('div.page3>ul>li:eq('+i+')').delay(i*3000-2000).fadeIn('10').animate({
 			fontSize:"60px"
 		},1000).animate({
-			fontSize:"30px"
+			fontSize:"20px"
 		},1000)
 	}
 		$('div.page3>ul>li:eq(10)').delay(28000).fadeIn('10').animate({

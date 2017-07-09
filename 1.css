@@ -30,18 +30,19 @@ div.openshow>img{
 }
 div.openword{
 	position:absolute;
-	left:300px;
-	top:100px;
+	left:15%;
+	top:10%;
 	overflow:hidden;
-	height:10px;
+	height:50px;
 }
 div.openword>p{
-	color: #fff;
+	color:pink;
+	padding-top:15px;
 	font-family: "华文行楷";
-	font-size: 40px;
+	font-size: 20px;
 }
 div.openword>h2{
-	margin-left:400px;
+	margin-left:40%;
 	color: #fff;
 	font-family: "微软雅黑";
 	cursor:pointer;
@@ -54,9 +55,10 @@ div.message{
 	width:100%;
 	height:60px;
 	position:fixed;
-	top:0;
+	top:5%;
 	left:0;
 	z-index:1;
+	overflow:hidden;
 }
 div.mes_bg{
 	background: black;
@@ -65,11 +67,9 @@ div.mes_bg{
 	opacity: 0.3;
 }
 li.isay{
-	position:absolute;
-	left:50px;
-	top:0;
+	float:left;
 	height:60px;
-	width:200px;
+	width:20%;
 	text-align: center;
 	line-height: 60px;
 	color:#fff;
@@ -87,10 +87,9 @@ li.isay>div.int{
 	display: none;
 }
 li.timer{
-	position:absolute;
-	right:100px;
-	top:0;
+	float: right;
 	height:60px;
+	width:80%;
 	text-align: center;
 	line-height: 60px;
 	color:#fff;
@@ -116,10 +115,11 @@ li.timer>span{
 /* page0 */
 div.word0{
 	position:absolute;
-	left:30%;
-	top:10%;
+	left:10%;
+	top:25%;
 }
 p.btn_jump{
+	color:aqua;
 	position:absolute;
 	right:10%;
 	bottom:10%;
@@ -134,7 +134,7 @@ p.btn_jump:hover,p.btn_left:hover,p.btn_down:hover,th.buy:hover,td.plus:hover,td
 div.word0>li>p{
 	color: #eee;
 	font-family: "华文行楷";
-	font-size: 30px;
+	font-size: 20px;
 	height:50px;
 	line-height:50px;
 }
@@ -151,8 +151,8 @@ div.word0>img{
 
 /* page1 */
 div.glass_all{
-	width:400px;
-	height:400px;
+	width:35%;
+	height:35%;
 	position:absolute;
 	left:60%;
 	top:200px;
@@ -190,7 +190,7 @@ p.word1{
 	top:30%;
 	color: #eee;
 	font-family: "华文行楷";
-	font-size: 30px;
+	font-size: 14px;
 	height:40px;
 	line-height:40px;
 	display:none;
@@ -210,9 +210,9 @@ div.word2{
 	position:absolute;
 	left:60%;
 	top:30%;
-	color: #eee;
+	color: aqua;
 	font-family: "华文行楷";
-	font-size: 30px;
+	font-size: 14px;
 	height:40px;
 	line-height:40px;
 }
@@ -226,6 +226,7 @@ div.page2 table{
 	position:absolute;
 	left:5%;
 	top:20%;
+	width:56%;
 	text-align: center;
 	color:#eee;
 
@@ -271,6 +272,8 @@ p.btn_go{
 	color: #eee;
 	font-family: "华文行楷";
 	font-size: 30px;
+	z-index: 999;
+	color:red;
 /*	display:none; */
 }
 
@@ -320,7 +323,7 @@ div.showp2 img{
 }
 div.showw2{
 	position:absolute;
-	right:10%;
+	right:0;
 	top:40%;
 	color: #fff;
 	font-family: "华文行楷";
@@ -376,16 +379,18 @@ div.page_end>div{
 	font-family: "楷体";
 	font-size: 30px;
 	line-height: 50px;
-	width:40%;
+	width:50%;
 	height:300px;
 }
 div.page_end>div>ul{
 	position: absolute;
-	left:50%;
+	left:10%;
 	top:300px;
+	width:100%;
 }
 /* btn */
 p.btn_jump,p.btn_left,p.btn_down,p.btn_go,p.btn_go1,p.btn_end{
 	display:none;
 }
-#top_1{position:fixed; top:0; left:40%; width:100%; height:20px; z-index: 99; }
+#top_1{position:fixed; top:0; left:15%; width:100%; height:20px; z-index: 99; opacity:.2;}
+#top_1:hover{opacity:1;}
